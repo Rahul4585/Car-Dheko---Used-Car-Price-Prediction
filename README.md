@@ -1,24 +1,43 @@
-# 🚗 Car Dheko - Used Car Price Prediction
+<div align="center">
 
-[![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://www.python.org) [![](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)  [![](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org) [![](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)  [![](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com) [![](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io) [![](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.google.com/)
+ # 🚗 Car Dheko - Used Car Price Prediction
 
-## Project Overview
+</div>
+
+<div align="center">
+
+[![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://www.python.org)
+[![](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/)
+[![](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org)
+[![](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)
+[![](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
+[![](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
+[![](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.google.com/)
+
+</div>
+
+
+##  📊 Project Overview
 
 The "Car Dheko - Used Car Price Prediction" project aims to develop an accurate machine learning model that predicts the prices of used cars. The project also involves deploying this model as an interactive web application using Streamlit. This tool will be user-friendly and accessible to both customers and sales representatives, allowing them to input car features and obtain real-time price predictions.
+
+<div align="center">
 
 <img src="https://github.com/user-attachments/assets/730d7010-4da9-44b4-8f92-15278d36761b" width="800" />
 
 <img src="https://github.com/user-attachments/assets/af742224-abf8-47d6-9fc7-046ceed2b2cd" width="800"/>
 
-## Project Scope
+</div>
+
+## 🔍 Project Scope
 
 The project leverages historical data on used car prices from CarDekho, which includes various features such as make, model, year, fuel type, transmission type, and more. The objective is to create a machine learning model that can accurately predict used car prices based on these features. The model will be integrated into a Streamlit-based web application, which will allow users to input car details and receive price estimates instantly.
 
-## Problem Statement
+## 🎯 Problem Statement
 
 Enhancing customer experience and streamlining the pricing process at Car Dheko by leveraging machine learning. The goal is to create a user-friendly tool that predicts the prices of used cars based on various features and deploy it as an interactive web application.
 
-## Data Source
+## 🔗 Data Source
 
 * We would be working with quite a large data which contains about __8369__ data points where again we would be dividing that into the training set and the test set.
 * Having a look at some of the cars that we are always excited to use in our daily lives, it is better to understand how these cars are being sold and their average prices.
@@ -26,13 +45,13 @@ Enhancing customer experience and streamlining the pricing process at Car Dheko 
 
  __Source:__ https://www.cardekho.com/usedCars
 
-## Dataset
+## 📂 Dataset
 
 The dataset comprises multiple Excel files, each representing data from a different city. It includes detailed information about used cars listed on CarDekho, such as their specifications and available features. The data needs to be preprocessed to handle missing values, standardize formats, encode categorical variables, and normalize numerical features.
 
 Feature Description Link : [Features](https://docs.google.com/document/d/1hxW7IvCX5806H0IsG2Zg9WnVIpr2ZPueB4AElMTokGs/edit)
 
-## Metrics
+## 📈 Metrics
 
 Predicting used car prices is a __continuous machine learning problem__. Therefore, the following metrics that are useful for regression problems are taken into account. Below are the __metrics__ that was used in the process of predicting car prices.
 
@@ -41,7 +60,7 @@ Predicting used car prices is a __continuous machine learning problem__. Therefo
 * [__R-squared (R2)__](https://www.investopedia.com/terms/r/r-squared.asp)
 * [__Root Mean Squared Error (RMSE)__](https://c3.ai/glossary/data-science/root-mean-square-error-rmse/)
 
-## Approach
+## 🚀 Approach
  
 ### 1. Data Processing
 
@@ -63,9 +82,13 @@ Predicting used car prices is a __continuous machine learning problem__. Therefo
 
 **Data after structuring**
 
+<div align="center">
+
 <img width="850" src="https://github.com/user-attachments/assets/b5fdcbca-7a39-4af3-8640-cdf3c62ed8eb">
 
 <img width="850" src= "https://github.com/user-attachments/assets/cbbfa850-b2c7-48a5-91a7-b22d6d2a27cb">
+
+</div>
 
 ### 2. Exploratory Data Analysis (EDA)
 
@@ -294,10 +317,9 @@ streamlit run app.py
 
 * Deploying the Application: You can deploy the Streamlit app using platforms like Streamlit Cloud, Heroku, or any other hosting service that supports Python web applications
 
-<img width="999" alt="image" src="https://github.com/user-attachments/assets/ced469d7-86bf-48bf-b8cc-33faf5ba5f65">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/2ff0e0e5-90f6-4705-a86e-d091ec5b161e">
 
-
-### Results
+## 📜 Conclusion
 
 **1.Accurate Predictive Model for Used Car Prices**
 
